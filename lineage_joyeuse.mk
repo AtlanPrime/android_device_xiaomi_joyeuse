@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/xiaomi/curtana/device.mk)
+$(call inherit-product, device/xiaomi/joyeuse/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_curtana
-PRODUCT_DEVICE := curtana
+PRODUCT_NAME := lineage_joyeuse
+PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9S
 PRODUCT_MANUFACTURER := Redmi
